@@ -1,6 +1,6 @@
 name: 'Code Coverage Summary (arm64)'
 author: 'Leo. <leo@cowsay.io>'
-description: 'A GitHub Action that reads Cobertura format code coverage files and outputs a text or markdown summary. Supports arm64. Forked from irongut/CodeCoverageSummary.'
+description: 'A fork of irongut/CodeCoverageSummary that reads supports arm64.'
 branding:
   icon: book-open
   color: purple
