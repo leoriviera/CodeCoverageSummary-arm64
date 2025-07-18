@@ -110,6 +110,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          platforms: "linux/amd64,linux/arm64"
 
       # Sign the Docker image digest
       # Uses the identity token to provision an ephemeral certificate against the community Fulcio instance
